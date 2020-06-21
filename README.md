@@ -1,4 +1,6 @@
-# DC_Crime-Analysis
+# DC Crime Analysis
+
+*Final Project for DATS6401 - Visualization of Complex Data*
 
 **DATA Description**
 
