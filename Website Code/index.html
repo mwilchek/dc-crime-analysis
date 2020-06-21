@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DATS 6401 - DC Crime Analysis</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+  	<div class="container-fluid px-md-5  pt-4 pt-md-5">
+			<div class="row justify-content-between">
+				<div class="col-md-8 order-md-last">
+					<div class="row">
+						<div class="col-md-6 text-center">
+							<a class="navbar-brand" href="index.html">DC Crime Analysis <small>By: Matthew Wilchek</small></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container-fluid">
+	    
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="fa fa-bars"></span> Menu
+	      </button>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav m-auto">
+	        	<li class="nav-item active"><a href="index.html" class="nav-link">About</a></li>
+	        	<li class="nav-item"><a href="summary.html" class="nav-link">Data Summary</a></li>
+	        	<li class="nav-item"><a href="cluster_analysis.html" class="nav-link">Cluster Analysis</a></li>
+	        	<li class="nav-item"><a href="features.html" class="nav-link">Feature Importance</a></li>
+	        	<li class="nav-item"><a href="dangerous_districts.html" class="nav-link">Dangerous Districts</a></li>
+	        	<li class="nav-item"><a href="offense_forecasting.html" class="nav-link">Offense Forecasting</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    
+    <section class="hero-wrap" style="background-image: url('images/second_image.jpg');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-center">
+          <div class="col-md-8 ftco-animate d-flex align-items-end">
+          	<div class="text w-100">
+	            <h1 class="mb-4" style="color:white">Washington, D.C. Crime Incident Analysis</h1>
+	            <p class="mb-4" style="color:white">A summary how crimes have changed throughout the district from 2010 to June 2020...</p>
+	            <p><a href="https://mpdc.dc.gov/" target="blank" class="btn btn-primary py-3 px-4">Official MPDC Site</a> <a href="https://opendata.dc.gov/" target="blank" class="btn btn-white py-3 px-4">Open Data DC</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+	<section class="ftco-counter ftco-section ftco-no-pt ftco-no-pb img bg-light" id="section-counter">
+    	<div class="container">
+    		<div class="row">
+          <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 py-4 mb-4">
+              <div class="text align-items-center">
+                <strong class="number" data-number="383709">0</strong>
+                <span>Crime Incidents Recorded</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 py-4 mb-4">
+              <div class="text align-items-center">
+                <strong class="number" data-number="164601">0</strong>
+                <span>Night Incidents Recorded</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 py-4 mb-4">
+              <div class="text align-items-center">
+                <strong class="number" data-number="30480">0</strong>
+                <span>Motor Vehicle Thefts Recorded</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 py-4 mb-4">
+              <div class="text align-items-center">
+                <strong class="number" data-number="1432">0</strong>
+                <span>Homicides Recorded</span>
+              </div>
+            </div>
+          </div>
+        </div>
+    	</div>
+    </section>
+
+    <section class="ftco-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url(images/about-2.jpg);">
+					</div>
+					<div class="col-md-6 wrap-about pl-md-5 ftco-animate py-5">
+	          <div class="heading-section">
+	          	<span class="subheading">DATS 6401 - Final Project</span>
+	            <h2 class="mb-4">About the Project</h2>
+
+	            <p>The primary objective of this project to visualize crime statistics of the Washington, D.C. area from 2010 to 2020 to date. The data will 
+					come from Open Data DC which updates every 2 days with the latest crime incidents that have occurred in the city. There are close to 
+					400,00 records available for analysis and visualization which includes features such as coordinate locations, type of crime, whether a 
+					weapon was used and if so what, time of day, and local precinct area. Through inimitable and creative interactivity, we will begin to see 
+					how criminal activity has changed over time, begin to understand how it is evolving using time-series forecasting, and ultimately figure 
+					out where to prioritize law enforcement resources to deter crime from occurring.</p>
+
+	            <a href="summary.html" class="btn btn-primary">View Summary Statistics</a>
+	          </div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+    <footer class="ftco-footer">
+      	<div class="container">
+      		<div class="row">
+	          <div class="col-md-12">
+		
+	            <p class="mb-0" style="color: rgba(255,255,255,.5);"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib.com</a>
+	  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+	          </div>
+	        </div>
+      	</div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
