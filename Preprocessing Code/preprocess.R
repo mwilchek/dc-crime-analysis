@@ -31,7 +31,7 @@ Crime_Incidents_in_2018$Year = 2018
 Crime_Incidents_in_2019 <- read.csv("F:/Data Science/Data Visualization/DATS 6401 - Final Project/Data/Crime_Incidents_in_2019.csv")
 Crime_Incidents_in_2019$Year = 2019
 
-Crime_Incidents_in_2020 <- read.csv("F:/Data Science/Data Visualization/DATS 6401 - Final Project/Data/Crime_Incidents_in_2019.csv")
+Crime_Incidents_in_2020 <- read.csv("F:/Data Science/Data Visualization/DATS 6401 - Final Project/Data/Crime_Incidents_in_2020.csv")
 Crime_Incidents_in_2020$Year = 2020
 
 dc_crime <- rbind(Crime_Incidents_in_2010,
