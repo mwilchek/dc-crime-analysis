@@ -4,7 +4,7 @@
 
 **DATA Description**
 
-DC crime incident locations. The dataset contains a subset of locations and attributes of incidents reported in the ASAP (Analytical Services Application) crime report database by the District of Columbia Metropolitan Police Department (MPD). I extracted incident reported from 2010/1/1 to 2020/06/19. Here I listed attribute used for visualization and analysis. 
+DC crime incident locations. The dataset contains a subset of locations and attributes of incidents reported in the ASAP (Analytical Services Application) crime report database by the District of Columbia Metropolitan Police Department (MPD). I extracted incident reported from 2010/1/1 to 2020/06/25. Here I listed attribute used for visualization and analysis. 
 
 
 | Attribute               | Description                                                      | 
