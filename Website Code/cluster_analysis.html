@@ -79,27 +79,57 @@
 				<div class="row justify-content-center">
 					</br>
 					<div class="col-md-10">
-						<h2>Insights from Analysis</h2>
-						<p>The above is an ArcGIS interactive web map application that includes a cluster analysis where criminal incidents have occurred in 
-							Washington, D.C. from January 1, 2010 to December 31, 2019.  Anyone can interact with the map by zooming into particular neighborhoods 
-							of the city, then use the bottom right time scale to see how crime has evolved in the areas. The neighborhoods are also clickable which 
-							include some brief demographic and population breakdowns to paint a picture what people may be living in the area as victims or possible 
-							perpetrators. 
+						<p style="text-align: center;">(Note: At the bottom of the map application are several widgets. A user can select different cluster layers to apply from the "Layer List". 
+							Also, if two layers are selected, a user can also select the "Swipe" widget to have a swipe function to move left and right between the two 
+							layers. Users can also add additional public data for their own context with the "Add Data" widget.)
 						</p>
-						<p>At a high level view of the city from the center it would appear that throughout most of 2018 theft while using a vehicle such as an 
+						<h2 style="text-align: center;">Insights from Analysis</h2>
+						<p>The above is an ArcGIS interactive web map application that includes a cluster analysis where criminal incidents have occurred in 
+							Washington, D.C. from January 1, 2010 to December 31, 2019.  Anyone can interact with the map by zooming into neighborhoods 
+							of the city, then use the bottom right time scale to see how crime has evolved in the areas. The neighborhoods are also clickable which 
+							include some brief confidence interval breakdowns to paint a picture the likelihood of areas to be more dangerous than others. 
+						</p>
+						<p>At a high level view of the city from the center it would appear that throughout most of the past ten years theft while using a vehicle such as an 
 							electric scooter or car (blue clusters) were on the rise, but as 2019 progressed most of the vehicle thefts decreased, and theft without 
 							a vehicle such as cunningly stealing phones, wallets, etc increased (the red clusters).
 						</p>
-						<p>If you zoom into the campus of Georgetown University, we can see that theft has also been an issue (primarily red and blue clusters) 
-							throughout all of 2018 and in 2019 as well. However, what’s interesting is what has been occurring in the past few months starting 
-							in September. From September 1 2019 to November 5, 2019 there have been 8 counts on campus of motor vehicle theft mostly occurring 
-							between the evening hours and midnight. Hopefully, local law enforcement are aware of this interesting trend and can begin to patrol 
-							parking lots more or notify people parked around campus to lock their cars and be more aware of their surroundings. Did you remember 
-							to secure your car today?
+						<p>If you zoom into the campus of Georgetown University, we can see that theft has also been an issue (primarily red clusters) 
+							throughout all of 2018 and in 2019 as well. However, what’s interesting is that in 2019 there are significantly fewer red clusters compared to 2018, 
+							which indicates that local law enforcement has prioritized making the campus safer. Compared to George Washington University, which has remained to 
+							be significantly safer than Georgetown with mostly all white clusters indicating very few crime incidents. Hopefully, local law enforcement is aware 
+							of these interesting trends and can continue to patrol these areas more or notify people parked around campus to be aware of their surroundings.
 						</p>
 					</div>
 				</div>
         	</div>
+		</section>
+
+		<section class="ftco-section ftco-no-pt">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url(images/about-3.jpg);">
+					</div>
+					<div class="col-md-6 wrap-about pl-md-5 ftco-animate py-5">
+	          <div class="heading-section">
+	          	<span class="subheading">Data for Predictive Modeling</span>
+	            <h2 class="mb-4">Feature Importance</h2>
+
+	            <p>Feature importance refers to techniques that assign a score to input functions primarily based on how useful they may be at predicting a target variable. 
+					There are many common and sources of characteristic importance scores, even though famous examples include statistical correlation scores, coefficients 
+					calculated as part of linear models, selection trees, and permutation importance scores. 
+				</p>
+	            <p>Feature importance ratings play a vital function in a predictive modeling project, including imparting perception into the information and feature choice 
+					which could improve the efficiency and effectiveness of a predictive version at the problem. The next section of the criminal analysis includes a brief 
+					statistical test on how the DC Crime Incident features could be used for predictive modeling, as well as how Data Visualization is important to understand 
+					the results.
+				</p>
+
+	            <a href="features.html" class="btn btn-primary">View Feature Importance</a>
+	          </div>
+
+					</div>
+				</div>
+			</div>
 		</section>
 
     <footer class="ftco-footer">
